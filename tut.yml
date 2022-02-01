@@ -1,0 +1,6 @@
+---
+- name: Initial Playbook
+  hosts: IronHeart
+  tasks:
+    - name: Print a message and leave a mark
+      command: "touch /tmp/I_am_Batman"
